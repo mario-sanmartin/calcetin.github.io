@@ -24,6 +24,11 @@
 		padding: 10px;
 		display: inline-block;
 	}
+
+	input
+	{
+		width: 60px;
+	}
 </style>
 
 </head>
@@ -37,7 +42,8 @@
 		<div class="borde">
 			<img src="img/tenor.gif"><br>	
 			<span>Nombre: </span><span>Prod1</span><br>
-			<span>Precio: </span><span>145200</span>
+			<span>Precio: </span><span>145200</span><br>
+			<input type="number" name="" placeholder="cant" min="0">
 			<button data-prod="prod1" data-precio="145200" onclick="Agregar(this)">Agregar</button>
 		</div>
 	</div>
@@ -46,7 +52,8 @@
 		<div class="borde">
 			<img src="img/tenor.gif"><br>	
 			<span>Nombre: </span><span>Prod2</span><br>
-			<span>Precio: </span><span>13200</span>
+			<span>Precio: </span><span>13200</span><br>
+			<input type="number" name="" placeholder="cant" min="0">
 			<button data-prod="prod2" data-precio="13200" onclick="Agregar(this)">Agregar</button>
 		</div>
 	</div>
@@ -55,7 +62,8 @@
 		<div class="borde">
 			<img src="img/tenor.gif"><br>	
 			<span>Nombre: </span><span>Prod3</span><br>
-			<span>Precio: </span><span>3545200</span>
+			<span>Precio: </span><span>3545200</span><br>
+			<input type="number" name="" placeholder="cant" min="0">
 			<button data-prod="prod2" data-precio="3545200" onclick="Agregar(this)">Agregar</button>
 		</div>
 	</div>
