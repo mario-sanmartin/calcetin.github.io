@@ -11,6 +11,21 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+<style type="text/css">
+	img 
+	{
+		width: 300px; height: auto;
+	}
+
+	.borde
+	{
+		border: 2px solid grey;
+		border-radius: 20px;
+		padding: 10px;
+		display: inline-block;
+	}
+</style>
+
 </head>
 <body>
 
@@ -19,30 +34,30 @@
 
 <div class="row">
 	<div class="col">
-		<div style="padding: 10px">
-			<img style="width: 350px; height: auto" src="img/tenor.gif">
+		<div class="borde">
+			<img src="img/tenor.gif"><br>	
+			<span>Nombre: </span><span>Prod1</span><br>
+			<span>Precio: </span><span>145200</span>
+			<button data-prod="prod1" data-precio="145200" onclick="Agregar(this)">Agregar</button>
 		</div>
-		<p>Nombre </p><span>Prod1</span>
-		<span>Precio: </span><p>145200</p>
-		<button data-prod="prod1" data-precio="145200" onclick="Agregar(this)">Agregar</button>
 	</div>
 
 	<div class="col">
-		<div style="padding: 10px">
-			<img style="width: 350px; height: auto" src="img/tenor.gif">
+		<div class="borde">
+			<img src="img/tenor.gif"><br>	
+			<span>Nombre: </span><span>Prod2</span><br>
+			<span>Precio: </span><span>13200</span>
+			<button data-prod="prod2" data-precio="13200" onclick="Agregar(this)">Agregar</button>
 		</div>
-		<p>Nombre </p><span>Prod2</span>
-		<span>Precio: </span><p>13200</p>
-		<button data-prod="prod2" data-precio="13200" onclick="Agregar(this)">Agregar</button>
 	</div>
 
 	<div class="col">
-		<div style="padding: 10px">
-			<img style="width: 350px; height: auto" src="img/tenor.gif">
+		<div class="borde">
+			<img src="img/tenor.gif"><br>	
+			<span>Nombre: </span><span>Prod3</span><br>
+			<span>Precio: </span><span>3545200</span>
+			<button data-prod="prod2" data-precio="3545200" onclick="Agregar(this)">Agregar</button>
 		</div>
-		<p>Nombre </p><span>Prod3</span>
-		<span>Precio: </span><p>3545200</p>
-		<button data-prod="prod2" data-precio="3545200" onclick="Agregar(this)">Agregar</button>
 	</div>
 </div>
 
