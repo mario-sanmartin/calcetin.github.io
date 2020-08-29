@@ -14,14 +14,15 @@
 </head>
 <body>
 
-<div id="carrito"></div>
+<div id="carrito">
+</div>
 
 <div class="row">
 	<div class="col">
 		<div style="padding: 10px">
 			<img style="width: 350px; height: auto" src="img/tenor.gif">
 		</div>
-		<p>Nombre</p>
+		<p>Nombre </p><span>Prod1</span>
 		<span>Precio: </span><p>145200</p>
 		<button data-prod="prod1" data-precio="145200" onclick="Agregar(this)">Agregar</button>
 	</div>
@@ -30,7 +31,7 @@
 		<div style="padding: 10px">
 			<img style="width: 350px; height: auto" src="img/tenor.gif">
 		</div>
-		<p>Nombre</p>
+		<p>Nombre </p><span>Prod2</span>
 		<span>Precio: </span><p>13200</p>
 		<button data-prod="prod2" data-precio="13200" onclick="Agregar(this)">Agregar</button>
 	</div>
@@ -39,7 +40,7 @@
 		<div style="padding: 10px">
 			<img style="width: 350px; height: auto" src="img/tenor.gif">
 		</div>
-		<p>Nombre</p>
+		<p>Nombre </p><span>Prod3</span>
 		<span>Precio: </span><p>3545200</p>
 		<button data-prod="prod2" data-precio="3545200" onclick="Agregar(this)">Agregar</button>
 	</div>
